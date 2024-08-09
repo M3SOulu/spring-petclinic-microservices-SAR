@@ -142,6 +142,16 @@
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>exec-maven-plugin</artifactId>
                     </plugin>
+                    <plugin>
+                        <groupId>io.contextmap</groupId>
+                        <artifactId>java-spring-compiletime</artifactId>
+                        <version>2.5.0</version>
+                        <configuration>
+                            <key>NTBjODdjZDQtOTVkOC00N2YxLTliMTQtNzFmOGM5NmYzZTkxOmFnUzFUY0UmI3g0dSw3OH0=</key>
+                            <multiModuleComponentName>vets_service</multiModuleComponentName>
+                            <host>http://localhost:8000</host>
+                        </configuration>
+                    </plugin>
                 </plugins>
             </build>
         </profile>
